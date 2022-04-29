@@ -15,7 +15,7 @@
 
 > array.map => this is importent method in array it's also use in objects and its return
 
-                        new values insted of taken in array values
+ new values insted of taken in array values
 
 > array.filter => this method filter the values insted of return the updated one
 
@@ -38,3 +38,5 @@
    > ARROW FUNCTION
    > FUNCTION EXPRESSION
    > FUNCTION DECLERATION
+5. Callback Function in JS
+   >In JavaScript, you can also pass a function as an argument to a function. This function that is passed as an argument inside of another function is called a callback function. For example,
