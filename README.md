@@ -40,3 +40,5 @@
    > FUNCTION DECLERATION
 5. Callback Function in JS
    >In JavaScript, you can also pass a function as an argument to a function. This function that is passed as an argument inside of another function is called a callback function. For example,
+6. Async/Await in Js
+   >We use the async keyword with a function to represent that the function is an asynchronous function. The async function returns a promise.   
