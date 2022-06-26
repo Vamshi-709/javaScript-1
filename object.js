@@ -32,5 +32,5 @@ var standardsList = [
 
 const res = [...new Set(standardsList.map((item)=> JSON.stringify(item)))];
 
-const rsults = res.map((item) =>  JSON.parse(item));
-console.log(rsults);
+const results = res.map((item) =>  JSON.parse(item));
+console.log(results);
