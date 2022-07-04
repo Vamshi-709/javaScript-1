@@ -23,7 +23,6 @@ console.log(result);
 
 
 //bind method in JavaScript
-// object definition
 const student1 = {
     name: "Jack",
     grade: "5",
