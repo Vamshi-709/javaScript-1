@@ -1,17 +1,12 @@
-const number =  "aaabbcde"
- const myFunction =(str = '') =>{
-	 let res= '';
-	 let count = 1
-	 for  (let i =0 ; i< str.length ; i++) {
-		 let results = str [i]
-		 let obj =[str +1] 
-		 if (results === obj ){
-			 count ++;
-		 }else {
-			 res += results  +String(count);
-			 count =1
-		 }
-	 }
-	 return res.length< str.length ? res : str;
- }
- console.log(myFunction (number));
+// Function to generate OTP
+function generateOTP() {
+	var digits = '0123456789';
+	let OTP = '';
+	for (let i = 0; i < 5; i++) {
+		OTP += digits[Math.floor(Math.random() * 10)];
+	}
+	return OTP;
+}
+
+console.log("OTP of 5 digits: " + generateOTP())
+
