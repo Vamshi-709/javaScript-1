@@ -17,20 +17,32 @@
 // console.log(`${fname}`);  //templet latters
 
 var standardsList = [
-    {"Grade": "Math K", "Domain": "Counting & Cardinality"},
-    {"Grade": "Math K", "Domain": "Counting & Cardinality"},
-    {"Grade": "Math K", "Domain": "Counting & Cardinality"},
-    {"Grade": "Math K", "Domain": "Counting & Cardinality"},
-    {"Grade": "Math K", "Domain": "Geometry"},
-    {"Grade": "Math 1", "Domain": "Counting & Cardinality"},
-    {"Grade": "Math 1", "Domain": "Counting & Cardinality"},
-    {"Grade": "Math 1", "Domain": "Orders of Operation"},
-    {"Grade": "Math 2", "Domain": "Geometry"},
-    {"Grade": "Math 2", "Domain": "Geometry"}
+    { "Grade": "Math K", "Domain": "Counting & Cardinality" },
+    { "Grade": "Math K", "Domain": "Counting & Cardinality" },
+    { "Grade": "Math K", "Domain": "Counting & Cardinality" },
+    { "Grade": "Math K", "Domain": "Counting & Cardinality" },
+    { "Grade": "Math K", "Domain": "Geometry" },
+    { "Grade": "Math 1", "Domain": "Counting & Cardinality" },
+    { "Grade": "Math 1", "Domain": "Counting & Cardinality" },
+    { "Grade": "Math 1", "Domain": "Orders of Operation" },
+    { "Grade": "Math 2", "Domain": "Geometry" },
+    { "Grade": "Math 2", "Domain": "Geometry" }
 ];
 
 
-const res = [...new Set(standardsList.map((item)=> JSON.stringify(item)))];
+const res = [...new Set(standardsList.map((item) => JSON.stringify(item)))];
 
-const results = res.map((item) =>  JSON.parse(item));
+const results = res.map((item) => JSON.parse(item));
 console.log(results);
+
+
+let person = {
+    firstName: 'Vamshi',
+    lastName: 'Krishna',
+    getFullName: function () {
+        return this.firstName + ' ' + this.lastName;
+    }
+};
+
+
+console.log(person.getFullName());
