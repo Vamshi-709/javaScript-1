@@ -42,3 +42,21 @@
    >In JavaScript, you can also pass a function as an argument to a function. This function that is passed as an argument inside of another function is called a callback function. For example,
 6. Async/Await in Js
    >We use the async keyword with a function to represent that the function is an asynchronous function. The async function returns a promise.   
+
+
+   <!-- Primetive Data TYpes -->
+   * Boolean
+   Boolean  ('') <!-- False -->
+   Boolean ('Name') <!-- True -->
+   Boolean ( 0 ) <!-- False -->
+   Boolean (1) <!-- True -->
+   Boolean (NaN) <!-- False -->
+   Boolean () <!--   False -->
+
+  *Not(!)
+  !"" <!-- True -->
+  !"Name" <!-- False -->
+  !0 <!-- True -->
+  !1 <!-- False -->
+  !Boolean <!-- False -->
+  !NaN <!-- True -->
